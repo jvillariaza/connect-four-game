@@ -1,0 +1,94 @@
+.container {
+	font-family: arial;
+}
+.main-menu {
+	max-width: 500px;
+	border: 3px solid #ECE7E7;
+	padding-bottom: 30px;
+}
+.main-game{
+	max-width: 750px;
+}
+table {
+	width: 100%;
+}
+table td {
+	height: 90px;
+	border: 1px solid #CED8CF;
+}
+table td:hover {
+	cursor: pointer;
+}
+.player1GameCell {
+	background-color: red;
+}
+.player2GameCell {
+	background-color: black;
+}
+.playerNameHolder {
+	padding-bottom: 20px;
+}
+.playerNameHolder input {
+	padding-left: 10px;
+}
+.startGameBtn {
+	width: 150px;
+	height: 50px;
+	color: white;
+	font-weight: bolder;
+	background-color: green;
+	border: none;
+}
+#playerTrigger {
+	width: 190px;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #ECE7E7;
+}
+#playerTrigger option {
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+.playerName {
+	width: 150px;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+.buttonContainer {
+	padding-top: 30px;
+}
+.title {
+	text-align: center;
+}
+.colorHolder {
+	width: 150px;
+	height: 30px;
+	float: right;
+	color: white;
+	padding-top: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+.redBackground {
+	background-color: red;
+}
+.blackBackground{
+	background-color: black;
+}
+.left {
+	float: left;
+}
+.tr7 {
+	border-right: 1px solid red;
+}
+.tr1 {
+	border-left: 1px solid black;
+}
+.cell6 {
+	border-bottom: 1px solid red;
+}
+.cell1 {
+	border-top: 1px solid black;
+}
